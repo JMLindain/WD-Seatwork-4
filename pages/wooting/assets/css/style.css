@@ -1,0 +1,182 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #202020; /* BG COLOUR FOR HEADER */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+header a:hover {
+    color: #FFBC10;
+}
+header img {
+    height: 80px;
+    width: auto;
+}
+nav {
+    font-weight: bold;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+}
+nav a[href="https://www.youtube.com/watch?v=KTuSSkhYc84"] {
+    color: #FFBC10;
+}
+.hero {
+    background-color: #202020; /* HERO 1 BG COLOUR */
+    padding: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    color: #fff;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 60px;
+    margin: 0 0 10px;
+    color: #fff;
+}
+.hero h1 span {
+    color: #FFBC10;
+}
+.hero p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+}
+.order-button {
+    background-color: #FFBC10; /* button bg colour */
+    color: #1F1E1E; /* button text colour */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: inline-block;
+}
+/* BUTTON COLOR ON HOVER */
+.order-button:hover {
+    background-color: #FFD043;
+}
+.hero-image {
+    width: 700px;
+    height: auto;
+    margin-right: 100px;
+    margin-top: -110px;
+}
+.secondary-hero {
+    background-color: #333; /* SECOND HERO BG */
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+.secondary-hero h1 {
+    font-family: 'League Spartan', sans-serif; /* H1 FONT */
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+.secondary-hero p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.gallery div {
+    text-align: center;
+}
+.gallery img {
+    max-width: 90%;
+    width: 600px;
+    height: auto; /* space ratio */
+    margin-bottom: 20px;
+}
+.gallery p {
+    color: #fff;
+}
+.community {
+    background-color: #202020;
+    color: #ffffff;
+    padding: 60px 0;
+}
+.community-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.community h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 38.2px;
+    color: #FFBC10;
+}
+.community p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.community form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.community input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    flex: 1;
+    margin-right: 10px;
+}
+.community button[type="submit"] {
+    background-color: #FFBC10;
+    color: #202020;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.footer {
+    background-color: #202020;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+}
+.footer p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.highlight {
+    color: #FFBC10;
+}

@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF5F5;
+    background: url(../img/background.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar img {
+    height: var(--logo-height, 50px);
+    transition: height 0.3s;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80vh;
+    text-align: center;
+    margin-top: 440px;
+}
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+.hero .button {
+    font-family: 'League Spartan', sans-serif;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.hero .button:hover {
+    background-color: #ddd;
+    color: black;
+}
