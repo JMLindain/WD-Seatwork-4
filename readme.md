@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/JMLindain/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="/assets/img/logo2.PNG" alt="logo" width="130" height="120">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 4</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  By Jerico Miguel A. Lindain
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-HandsOn2)
 
 ---
 
@@ -57,26 +57,30 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This project is a web development exercise aimed at creating a Features Display Website showcasing distinct design layouts for different features using pure HTML, CSS, and JavaScript. Wooting and Tesla was used as reference. The website includes two pages for demonstration, emphasizing layout design. The project is structured, deployed using GitHub Actions, and the README file is updated accordingly.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+### Purpose
+The primary purpose of this project is to demonstrate web development skills, particularly in creating distinct and engaging layouts using pure HTML, CSS, and JavaScript. It aims to:
+
+- Showcase the ability to design and structure a website.
+- Implement interactive and visually appealing web pages.
+- Provide a platform for demonstrating different feature layouts.
+- Ensure the website is accessible and well-documented.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Entertaining Design Elements and Animations
+
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -117,4 +121,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Tesla | Reference | https://www.tesla.com/ |
+|Wooting|Reference|https://wooting.io/|
